@@ -8,6 +8,22 @@ Hero is a command line tool for creating [Hero images](https://en.wikipedia.org/
 
 The command `hero` will be installed at $GOPATH/bin/
 
+### libvips
+
+hero requires that libvips is installed and on your $PATH
+
+#### Ubuntu/Depian
+
+`apt-get install vips`
+
+##### MacOs
+
+`brew install vips`
+
+#### Windows
+
+Download the latest zip from `https://github.com/jcupitt/libvips/releases`
+
 ## Usage
 
 `hero --help`
