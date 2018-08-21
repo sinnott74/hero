@@ -30,7 +30,7 @@ Flags:
 
 ## Example
 
-`hero -c purple -i .typescript.png -i ./apache.png -o hero.png`
+`hero -c purple -i typescript.png -i apache.png -o hero.png`
 
 will create the following hero image
 ![Purple hero image containing Typescript & Apache icons](https://i.imgur.com/elUw241.png "Purple hero image containing Typescript & Apache icons")
