@@ -21,7 +21,7 @@ var (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "hero",
-	Short: "A brief description of your application",
+	Short: "Hero creates banner images to be displayed on a website",
 	RunE: func(cmd *cobra.Command, args []string) error {
 
 		iconDimensions := image.Point{iconsize, iconsize}
