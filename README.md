@@ -2,11 +2,13 @@
 
 Hero is a command line tool for creating [Hero images](https://en.wikipedia.org/wiki/Hero_image)
 
-## Installation
+## Requirements
 
-`go get github.com/sinnott74/hero`
+### Go
 
-The command `hero` will be installed at $GOPATH/bin/
+Install Golang & add the required environment variables
+
+See `https://golang.org/doc/install#install`
 
 ### libvips
 
@@ -23,6 +25,12 @@ hero requires that libvips is installed and on your $PATH
 #### Windows
 
 Download the latest zip from `https://github.com/jcupitt/libvips/releases`
+
+## Installation
+
+`go get github.com/sinnott74/hero`
+
+The command `hero` will be installed at $GOPATH/bin/
 
 ## Usage
 
@@ -48,5 +56,6 @@ Flags:
 
 `hero -c purple -i typescript.png -i apache.png -o hero.png`
 
-will create the following hero image
+will create the following hero image:
+
 ![Purple hero image containing Typescript & Apache icons](https://i.imgur.com/elUw241.png "Purple hero image containing Typescript & Apache icons")
