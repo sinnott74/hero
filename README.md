@@ -1,3 +1,5 @@
+![Hero](https://i.imgur.com/VjSYpME.png "Hero")
+
 # Hero
 
 Hero is a command line tool for creating [Hero images](https://en.wikipedia.org/wiki/Hero_image)
