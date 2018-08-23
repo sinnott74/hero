@@ -56,13 +56,13 @@ func CreatePNG(pic draw.Image, out *string) error {
 
 // readIcon reads in the btyes of a given file
 func readIcon(iconPath *string) ([]byte, error) {
-	f, err := os.Open(*iconPath)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
+	// f, err := os.Open(*iconPath)
+	// if err != nil {
+	// 	return nil, err
+	// }
+	// defer f.Close()
 
-	inBuf, err := ioutil.ReadAll(f)
+	inBuf, err := ioutil.ReadFile(*iconPath)
 	if err != nil {
 		return nil, err
 	}
