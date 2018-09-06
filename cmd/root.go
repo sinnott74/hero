@@ -20,7 +20,7 @@ var (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "hero",
+	Use:   "Hero image creating utility",
 	Short: "Hero creates banner images to be displayed on a website",
 	RunE: func(cmd *cobra.Command, args []string) error {
 
