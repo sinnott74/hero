@@ -51,7 +51,7 @@ var rootCmd = &cobra.Command{
 
 func init() {
 	rootCmd.PersistentFlags().StringVarP(&out, "output", "o", "./hero.png", "File to output")
-	rootCmd.PersistentFlags().StringVarP(&bgColor, "color", "c", "red", "Background color")
+	rootCmd.PersistentFlags().StringVarP(&bgColor, "color", "c", "red", "Background color - Red, Pink, Purple, DeepPurple, Indigo, Blue, LightBlue, Cyan, Teal, Green, LightGreen, Lime,, Yellow, Amber, Orange, DeepOrange, Grey, BlueGrey")
 	rootCmd.PersistentFlags().StringArrayVarP(&icons, "icons", "i", []string{}, "Icons")
 	rootCmd.PersistentFlags().IntVarP(&width, "width", "x", 960, "Max x coordinate of the hero - width of the hero")
 	rootCmd.PersistentFlags().IntVarP(&height, "height", "y", 480, "Max y coordinate of the hero - height of the hero")
