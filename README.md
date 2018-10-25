@@ -1,4 +1,4 @@
-![Hero](https://i.imgur.com/VjSYpME.png "Hero")
+![Hero](https://i.imgur.com/Wztps1f.png "Hero")
 
 # Hero
 
